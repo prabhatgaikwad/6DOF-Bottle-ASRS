@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="igus REBEL-6DOF" RobotType="REBEL-6DOF-03" GripperType="Schunk_EGP40_RebelMountingPlate_Finger.xml" Software="iRC V902-14-004" VelocitySetting="0" />
+    <Linear AbortCondition="False" Nr="1" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="220.2" y="0" z="300" a="180" b="0.63" c="180" e1="0" e2="0" e3="0" Descr="P1" />
+    <Linear AbortCondition="False" Nr="2" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="216.3" y="-183.6" z="271.3" a="114.43" b="0.3" c="180" e1="0" e2="0" e3="0" Descr="Safe Point" />
+    <Output Nr="3" Channel="DOut31" State="True" Descr="" />
+    <Wait Nr="4" Type="Time" Seconds="0.3" Descr="" />
+    <Output Nr="5" Channel="DOut31" State="False" Descr="" />
+    <Linear AbortCondition="False" Nr="6" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="216.3" y="-183.6" z="237" a="114.43" b="0.3" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Output Nr="7" Channel="DOut32" State="True" Descr="" />
+    <Wait Nr="8" Type="Time" Seconds="0.2" Descr="" />
+    <Linear AbortCondition="False" Nr="9" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="216.3" y="-183.6" z="271.3" a="114.43" b="0.3" c="180" e1="0" e2="0" e3="0" Descr="Safe Point" />
+    <Linear AbortCondition="False" Nr="10" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="234.5" y="-228.9" z="271.3" a="114.43" b="0.3" c="180" e1="0" e2="0" e3="0" Descr="pick and move out 1" />
+    <Linear AbortCondition="False" Nr="11" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="323" y="-185.8" z="271.3" a="114.43" b="0.3" c="180" e1="0" e2="0" e3="0" Descr="pick and move out 2" />
+    <Linear AbortCondition="False" Nr="12" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="410.8" y="-9.8" z="277" a="114.79" b="0.26" c="179.99" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="13" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="439" y="-27.6" z="208.2" a="114.78" b="0.59" c="179.39" e1="0" e2="0" e3="0" Descr="" />
+    <Wait Nr="14" Type="Time" Seconds="2" Descr="" />
+    <Linear AbortCondition="False" Nr="15" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="371" y="119.7" z="216.8" a="-117" b="0.8" c="-179.66" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="16" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="372" y="119.4" z="155" a="-117" b="0.1" c="-179.1" e1="0" e2="0" e3="0" Descr="" />
+    <Output Nr="17" Channel="DOut32" State="False" Descr="" />
+    <Wait Nr="18" Type="Time" Seconds="0.2" Descr="" />
+    <Output Nr="19" Channel="DOut31" State="True" Descr="" />
+    <Wait Nr="20" Type="Time" Seconds="0.2" Descr="" />
+    <Output Nr="21" Channel="DOut31" State="False" Descr="" />
+    <Linear AbortCondition="False" Nr="22" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="372" y="119.7" z="216.8" a="-117" b="0.1" c="-179.1" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="23" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="220.2" y="0" z="300" a="180" b="0.63" c="180" e1="0" e2="0" e3="0" Descr="P1" />
+</Program>

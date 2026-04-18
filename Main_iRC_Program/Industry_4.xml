@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="igus REBEL-6DOF" RobotType="REBEL-6DOF-03" GripperType="Schunk_EGP40_RebelMountingPlate_Finger.xml" Software="iRC V902-14-004" VelocitySetting="0" />
+    <Linear AbortCondition="False" Nr="1" Source="Numerical" vel="100" acc="40" smooth="0" UserFrame="#base" x="220.2" y="0" z="300" a="180" b="0.63" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <If Nr="2" Condition="!DIn21" Descr="P1" />
+    <Sub Nr="3" File="industry_4.0_subs\P1.xml" Descr="" />
+    <If Nr="4" Condition="!DIn22" Descr="" />
+    <Wait Nr="5" Type="Conditional" Condition="DIn25" Descr="" />
+    <Sub Nr="6" File="industry_4.0_subs\P2.xml" Descr="" />
+    <If Nr="7" Condition="!DIn23" Descr="" />
+    <Wait Nr="8" Type="Conditional" Condition="DIn25" Descr="" />
+    <Sub Nr="9" File="industry_4.0_subs\P3.xml" Descr="" />
+    <If Nr="10" Condition="!DIn24" Descr="" />
+    <Wait Nr="11" Type="Conditional" Condition="DIn25" Descr="" />
+    <Sub Nr="12" File="industry_4.0_subs\P4.xml" Descr="" />
+    <Else Nr="13" Descr="" />
+    <EndIf Nr="14" Descr="" />
+    <Else Nr="15" Descr="" />
+    <EndIf Nr="16" Descr="" />
+    <Else Nr="17" Descr="" />
+    <EndIf Nr="18" Descr="" />
+    <Else Nr="19" Descr="" />
+    <EndIf Nr="20" Descr="" />
+</Program>
